@@ -8,7 +8,7 @@ const Header = () => {
     const { textStyle, viewStyle } = styles;
     return (
     <View style={viewStyle}>
-        <Text style={textStyle}>Header Butt</Text>
+        <Text style={textStyle}>Albums</Text>
     </View>
     );
 };
