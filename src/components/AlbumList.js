@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View } from 'react-native';
+import { ScrollView } from 'react-native';
 import axios from 'axios';
 import Album from './Album';
 
@@ -19,10 +19,10 @@ class AlbumList extends Component {
       render() { 
           console.log('HERE ARE YOUR ALBUMS', this.state.albums);
           return (
-              <View>
+              <ScrollView>
               
             {this.renderAlbums()}
-        </View>
+        </ScrollView>
         );
 }
 }
